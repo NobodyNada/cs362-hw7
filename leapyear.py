@@ -1,2 +1,2 @@
 def is_leap_year(year):
-    return False
+    return year % 4 == 0
