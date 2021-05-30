@@ -17,3 +17,8 @@ def test_buzz():
     assert fizzbuzz(10) == "Buzz"
     assert fizzbuzz(20) == "Buzz"
     assert fizzbuzz(100) == "Buzz"
+
+def test_fizzbuzz():
+    assert fizzbuzz(15) == "FizzBuzz"
+    assert fizzbuzz(30) == "FizzBuzz"
+    assert fizzbuzz(0) == "FizzBuzz"
