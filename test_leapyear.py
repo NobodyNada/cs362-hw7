@@ -10,3 +10,8 @@ def test_multiples_of_4():
     assert is_leap_year(4)
     assert is_leap_year(2008)
     assert is_leap_year(2020)
+
+def test_multiples_of_100():
+    assert not is_leap_year(100)
+    assert not is_leap_year(2100)
+    assert not is_leap_year(1900) # i'm looking at you, microsoft excel
